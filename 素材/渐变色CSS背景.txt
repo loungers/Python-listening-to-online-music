@@ -1,0 +1,12 @@
+CSS一句话搞定背景静态渐变
+2006-04-02 23:56阅读(113)评论(0)
+今天在寫東西的過程中一下子就被css的小技巧吸引了，有個很好的應用，使得以後都不要用到背景圖了，收藏一個關於css做的關於靜態漸變的背景代碼：
+<body 
+style="FILTER:Alpha(style=1,opacity=25,
+finishOpacity=100,
+startX=50,finishX=100,
+StartY=50,finishY=100);
+background-color:skyblue">
+</body>
+
+這樣的話使用alpha濾鏡，對起始點進行設定就可以設計出你需要的漸變方式了就像在玩photoshop的那個漸變一樣，你學會了嗎？快點收藏吧
